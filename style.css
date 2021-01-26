@@ -1,0 +1,69 @@
+/* adjusting navigation width */
+#nav a{
+    width: 1200px;
+}
+/* changing background color to navigation */
+ body #nav{
+     background-color: #7DAF9C;
+ }
+
+ /* deleting weird liitle guy image */
+.about-image{
+    display: none;
+}
+/* changing background color to middle part of page and centering the text */
+ main #about{
+    background-color: #001242;
+    text-align: center;
+}
+
+/* adjusting text to main */
+main .about{
+    font-size: 1.5rem;
+    padding: 100px;
+    padding-left: 50px;
+    padding-right: 50px; 
+}
+
+/* putting border around about me and contact me */
+h2{
+    border: 2px solid #7DAF9C;
+}
+
+/* putting border around hello */
+h1{
+    border: 2px solid #7DAF9C;
+}
+
+/* changing background color to hello */
+ main #home {
+    background-color: #726DA8;
+}
+
+/* adjusting contact content */
+.contact p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white; 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+/* adjusting contact form colour */
+.contact .contact-form{
+    background-color: #7DAF9C;
+}
+
+/* changing contact tittle colour */
+.contact .section-title{
+    color: white;
+}
+
+/* changing font on all text */
+nav,
+h1,
+h2,
+p{
+    font-family: "Times New Roman", Times, serif;
+}
