@@ -5,5 +5,5 @@ footer{
 
 /* adding the background image to main so it covers everything but the footer */
 main{
-background: url("../images/images/scooter.svg") no-repeat center center;
+background: url("../images/scooter.svg") no-repeat center center;
 }
