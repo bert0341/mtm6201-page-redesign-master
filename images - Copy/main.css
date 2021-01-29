@@ -1,0 +1,11 @@
+main{
+    background-color: red;
+}
+footer{
+    background-color: #fffd8c;
+}
+
+/* adding the background image to main so it covers everything but the footer */
+main{
+background: url("../images/images/scooter.svg") no-repeat center center;
+}
