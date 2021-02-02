@@ -14,11 +14,25 @@ width: 100%;
     box-shadow: width 50%;
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
     align-items: flex-end;
-}
+} 
 .calculate{
     display: flex;
     padding-bottom: 20px;
+}
+#calculate{
+    background-color:#ff8480;
+    color: white;
+    border-radius: 5px;
+}
+.message{
+    border-radius: 5px;
+    line-height: 20px;
+}
+h1{
+    font-family: "Montserrat" , black; 
+    font-size: 80px;
 }
 .link{
     /* display: flex; */
