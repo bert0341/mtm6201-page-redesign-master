@@ -6,12 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
 
         <main>
             <header>
-                <img src="images/favicon.ico"  class="d" alt="D">
+                <img src="images/logo.png"  class="d" alt="D">
             </header> 
         
             <article>
@@ -24,6 +26,8 @@
                     Start today and make up to $30/hr driving
                     your own vehicle with Dash!
                 </p>
+                <img src="images/scooter.svg" alt="scooter" class="scooter">
+
                 <div class="box">
 
                     <h2>Apply Now</h2>
@@ -34,23 +38,23 @@
                     
                     <form action="thanks.html" method="post">
                         <div>
-                            <label for="name"></label>
-                            <input type="text" name="fullname" id="fullname"
+                            <label for="name" ></label>
+                            <input type="text" class="text-box" name="fullname" id="fullname"
                             id="fullname" placeholder="First Name"  class="message">
                         </div>
                         <div>
                             <label for="youremail"></label>
-                            <input type="email" name="youremail" id="youremail"required placeholder="Last name" class="message">
+                            <input type="email" class="text-box" name="youremail" id="youremail"required placeholder="Last name" class="message">
                         </div>
                         <div>
-                            <label for="message"></label>
-                            <input type= "text" name="yourmessage"
+                            <label for="message" ></label>
+                            <input type= "text" class="text-box" name="yourmessage"
                             id="yourmessage" placeholder="Email adress" class="message">
                             
                         </div>
                         <div>
-                            <label for="message"></label>
-                            <input type= "text" name="yourmessage"
+                            <label for="message" ></label>
+                            <input type= "text" class="text-box" name="yourmessage"
                             id="yourmessage" placeholder="Phone number" class="message">
                             
                         </div>
@@ -59,10 +63,12 @@
                         <label for="agree">I agree to dash terms</label>
                         <div class="link">
 
-                            <button type="submit">DRIVE WITH US</button>
+                            <button id="us" type="submit">DRIVE WITH US</button>
                             <p class="applied"> Already applied? </p>
-                            <a href="check your application status here"> check your application status here</a>
-                    </form>  </div>
+                            <a href="Check your application status here"> check your application status here</a>
+                        </div>
+                    
+                    </form>
                 </div>
 
             </article>

@@ -1,12 +1,41 @@
+/* box sizing */
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after{
+    box-sizing: inherit;
+  }
 
+body{
+  padding-left: 38px;
+  padding-right: 38px;
+
+}
 footer{
     background-color: #fffd8c;
 }
-
-/* adding the background image to main so it covers everything but the footer */
-main{
-background: url("../images/scooter.svg") no-repeat center center;
-width: 100%;
+.d{
+    width: 114px;
+    height: 81px;
+}
+p{
+    font-size: 24px;
+}
+#us{
+    font-size: 24px;
+    background-color: #57eeab;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 10px;
+}
+.text-box{
+    background-color: #F4F4F5 ;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px;
 }
 
 .box{
@@ -15,10 +44,8 @@ width: 100%;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    align-items: flex-end;
 } 
 .calculate{
-    display: flex;
     padding-bottom: 20px;
 }
 #calculate{
@@ -30,10 +57,26 @@ width: 100%;
     border-radius: 5px;
     line-height: 20px;
 }
-h1{
-    font-family: "Montserrat" , black; 
-    font-size: 80px;
+h1{ 
+    font-size: 60px;
 }
-.link{
-    /* display: flex; */
+
+/* ipad */
+@media screen and (min-width:375px){
+
+body{
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+}
+/* desktop */
+@media screen and (min-width:768px) {
+
+
+body{
+    padding-left: 82px;
+    padding-right: 82px;  
+}
+
 }
