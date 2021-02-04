@@ -41,7 +41,6 @@ p{
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    width: 300px;
 } 
 /* calcualte button adjustments */
 #calculate{
@@ -79,11 +78,12 @@ h1{
 /* iPad */ 
 /* //////////////////// */
 @media screen and (min-width:375px){
-
+/* adding padding to either side */
 body{
     padding-left: 140px;
     padding-right: 140px;
 }
+
 
 }
 /* //////////////////// */
