@@ -12,7 +12,7 @@ html{
 body{
   padding-left: 38px;
   padding-right: 38px;
-
+  background-color: #F7F7FF;
 }
 footer{
     background-color: #fffd8c;
@@ -42,7 +42,6 @@ p{
 
 .box{
     box-shadow: 0 2px 5px 0 black;
-    box-shadow: width 100%;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
