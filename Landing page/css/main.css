@@ -61,11 +61,11 @@ p{
 }
 /* changing width of hour text box */
 #hours{
-    width: 25%;
+    width: 24%;
 }
 /* changing width of city text box */
 #city{
-    width: 75%;
+    width: 74%;
 }
 .message{
     border-radius: 5px;
