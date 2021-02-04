@@ -3,6 +3,7 @@ body{
   padding-left: 38px;
   padding-right: 38px;
   background-color: #F7F7FF;
+  font-family: 'Montserrat', sans-serif;
 }
 /* changing the footer color */
 footer{
@@ -47,6 +48,12 @@ p{
     color: white;
     border-radius: 5px;
     padding-bottom: 20px;
+    width: 100%;
+}
+/* changing enter info font-size */
+.enter{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 .message{
     display: flex;
