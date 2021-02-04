@@ -1,29 +1,23 @@
-and here is my css
-/* box sizing
-html{
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after{
-    box-sizing: inherit;
-  } */
-
+/* adding padding for mobile version and changing background color */
 body{
   padding-left: 38px;
   padding-right: 38px;
   background-color: #F7F7FF;
 }
+/* changing the footer color */
 footer{
     background-color: #fffd8c;
 }
+/* Adjusting height and width of the D logo */
 .d{
     width: 114px;
     height: 81px;
 }
+/* adjusting paragraph font-size */
 p{
     font-size: 24px;
 }
+/* adjustments on the Drive with us button */
 #us{
     font-size: 24px;
     background-color: #57eeab;
@@ -32,37 +26,48 @@ p{
     font-weight: bold;
     line-height: 10px;
 }
+/* text box adjustments and sizing */
 .text-box{
     background-color: #F4F4F5 ;
     border-radius: 5px;
-    width: 100%;
+    width: 90%;
     margin: 5px;
     line-height: 20px;
 }
-
+/* Adjusting layout of the form */
 .box{
     box-shadow: 0 2px 5px 0 black;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
 } 
-.calculate{
-    padding-bottom: 20px;
-}
+/* calcualte button adjustments */
 #calculate{
     background-color:#ff8480;
     color: white;
     border-radius: 5px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+/* changing width of hour text box */
+#hours{
+    width: 25%;
+}
+/* changing width of city text box */
+#city{
+    width: 75%;
 }
 .message{
     border-radius: 5px;
     line-height: 20px;
 }
+/* adjusting all h1 text to 60px */
 h1{ 
     font-size: 60px;
 }
-
-/* iPad */
+/* ///////////////////// */
+/* iPad */ 
+/* //////////////////// */
 @media screen and (min-width:375px){
 
 body{
@@ -71,7 +76,9 @@ body{
 }
 
 }
+/* //////////////////// */
 /* desktop */
+/* //////////////////// */
 @media screen and (min-width:768px) {
 
 
