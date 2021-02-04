@@ -49,6 +49,9 @@ p{
     padding-bottom: 20px;
     width: 100%;
 }
+.message{
+    display: flex;
+}
 /* changing width of hour text box */
 #hours{
     width: 25%;
