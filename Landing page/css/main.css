@@ -49,15 +49,14 @@ p{
     border-radius: 5px;
     padding-bottom: 20px;
     width: 100%;
+    display: flex;
 }
 /* changing enter info font-size */
 .enter{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
-.message{
-    display: flex;
-}
+
 /* changing width of hour text box */
 #hours{
     width: 24%;
