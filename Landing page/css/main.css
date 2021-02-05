@@ -42,6 +42,9 @@ p{
     display: flex;
     flex-direction: column;
     border-radius: 5px;
+    background-color: white;
+    max-width: 535px;
+    height: 590px;
 } 
 /* calcualte button adjustments */
 #calculate{
@@ -49,7 +52,8 @@ p{
     color: white;
     border-radius: 5px;
     padding-bottom: 20px;
-    width: 100%;
+    max-width: 302px;
+    width: 302px;
 }
 .calculate{
     display: flex;
@@ -60,14 +64,21 @@ p{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
-
+#one{
+    width: 25%;
+}
+.flex{
+    display: flex;
+}
 /* changing width of hour text box */
 #hours{
-    width: 24%;
+    width: 100%;
+    box-sizing: border-box;
 }
 /* changing width of city text box */
 #city{
-    width: 74%;
+    width: 100%;
+    box-sizing: border-box;
 }
 .message{
     border-radius: 5px;
@@ -99,16 +110,45 @@ body{
 .scooter{
     display: none;
 }
-
+main{
+    height: 80%;
+    max-width: 1640px;
+    margin: 0 auto;
+}
+.calculate{
+    width: auto;
+}
+html{
+    height: 100%;
+}
+.element{
+    max-width: 1640px;
+    margin: 0 auto;
+}
+footer{
+    height: 20%;
+}
+.upper{
+    max-width:505px;
+    display: center;
+}
 body{
     padding-left: 140px;
     padding-right: 140px; 
-    background-image: url("../images/scooter.svg");
-    background-repeat: no-repeat; 
+    height: 100%;
+    padding: 0;
 }
 article{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+.box{
+    grid-column-start: 3;
+}
+article{
+    background-image: url("../images/scooter.svg");
+    background-repeat: no-repeat; 
+    background-position: center;
 }
 
 

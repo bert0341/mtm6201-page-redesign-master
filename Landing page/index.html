@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- adding links -->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +13,7 @@
     <body>
 
         <main>
+            <!-- adding the D logo above everthing -->
             <header>
                 <img src="images/logo.png" class="d" alt="D">
             </header> 
@@ -30,6 +31,7 @@
                         your own vehicle with Dash!
                     </p>
                 </div>
+                <!-- adding the scooter image in the correct place -->
                 <img src="images/scooter.svg" alt="scooter" class="scooter">
 
                 <div class="box">
@@ -82,27 +84,32 @@
             
         </main>
         <footer>
-            <!-- used h3 because it's like an announcement but still bold -->
-            <h3>
-                See how much you can earn with dash
-            </h3>
-            <p class="enter">
-                how many hours do you wat to drive with us this week?
-            </p>
-            <div class="calculate">
+            <div class="element">
 
-                <div>
-                    <label for=""></label>
-                    <input type= "text" name="hours"
-                    placeholder="Hours" class="message" id="hours">
-                    
+                <!-- used h3 because it's like an announcement but still bold -->
+                <h3>
+                    See how much you can earn with dash
+                </h3>
+                <p class="enter">
+                    how many hours do you wat to drive with us this week?
+                </p>
+                <div class="calculate">
+                    <div class="flex">
+
+                        <div id="one">
+                            <label for=""></label>
+                            <input type= "text" name="hours"
+                            placeholder="Hours" class="message" id="hours">
+                            
+                        </div>
+                        <div id="two">
+                            <label for=""></label>
+                            <input type= "text" name="city"
+                            placeholder="city" class="message" id="city">
+                        </div>
+                    </div>
+                    <button type="submit" id="calculate">CALCULATE</button>
                 </div>
-                <div>
-                    <label for=""></label>
-                    <input type= "text" name="city"
-                    placeholder="city" class="message" id="city">
-                </div>
-                <button type="submit" id="calculate">CALCULATE</button>
             </div>
 
         </footer>
