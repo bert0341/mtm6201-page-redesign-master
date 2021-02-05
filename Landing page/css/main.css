@@ -17,6 +17,7 @@ footer{
 /* adjusting paragraph font-size */
 p{
     font-size: 24px;
+    margin-top: 0;
 }
 /* adjustments on the Drive with us button */
 #us{
@@ -49,7 +50,10 @@ p{
     border-radius: 5px;
     padding-bottom: 20px;
     width: 100%;
+}
+.calculate{
     display: flex;
+    flex-wrap: wrap;
 }
 /* changing enter info font-size */
 .enter{
@@ -72,6 +76,7 @@ p{
 /* adjusting all h1 text to 60px */
 h1{ 
     font-size: 60px;
+    margin-bottom: 0;
 }
 /* ///////////////////// */
 /* iPad */ 
@@ -79,8 +84,9 @@ h1{
 @media screen and (min-width:375px){
 /* adding padding to either side */
 body{
-    padding-left: 140px;
-    padding-right: 140px;
+    /* padding-left: 82px;
+    padding-right: 82px; */
+    padding: 0 82px;
 }
 
 
@@ -90,10 +96,21 @@ body{
 /* //////////////////// */
 @media screen and (min-width:768px) {
 
+.scooter{
+    display: none;
+}
 
 body{
-    padding-left: 82px;
-    padding-right: 82px;  
+    padding-left: 140px;
+    padding-right: 140px; 
+    background-image: url("../images/scooter.svg");
+    background-repeat: no-repeat; 
 }
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 
 }
