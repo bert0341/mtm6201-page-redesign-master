@@ -27,6 +27,8 @@ p{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     line-height: 20px;
+    width: 90%;
+    padding: 10px;
 }
 /* text box adjustments and sizing */
 .text-box{
@@ -51,7 +53,6 @@ p{
     background-color:#ff8480;
     color: white;
     border-radius: 5px;
-    padding-bottom: 20px;
     max-width: 302px;
     width: 302px;
 }
@@ -89,6 +90,16 @@ h1{
     font-size: 60px;
     margin-bottom: 0;
 }
+/* changing font size for apple now */
+h2{
+    font-size: 40px;
+}
+/* adjusting icon placement */
+.icons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
 /* ///////////////////// */
 /* iPad */ 
 /* //////////////////// */
@@ -98,6 +109,12 @@ body{
     /* padding-left: 82px;
     padding-right: 82px; */
     padding: 0 82px;
+}
+article p{
+    font-size: 30px;
+}
+.message, .text-box{
+    font-size: 18px;
 }
 
 
@@ -150,7 +167,9 @@ article{
     background-repeat: no-repeat; 
     background-position: center;
 }
-
+.icons{
+    justify-content: flex-end;
+}
 
 
 }
