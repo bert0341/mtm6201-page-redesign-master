@@ -1,3 +1,92 @@
+/* css reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 /* adding padding for mobile version and changing background color */
 body{
   padding-left: 38px;
@@ -30,6 +119,9 @@ p{
     width: 90%;
     padding: 10px;
 }
+h3{
+    font-weight: bold;
+}
 /* text box adjustments and sizing */
 .text-box{
     background-color: #F4F4F5 ;
@@ -37,6 +129,7 @@ p{
     width: 90%;
     margin: 5px;
     line-height: 20px;
+    padding: 10px;
 }
 /* Adjusting layout of the form */
 .box{
@@ -55,6 +148,7 @@ p{
     border-radius: 5px;
     max-width: 302px;
     width: 302px;
+    padding: 5px;
 }
 .calculate{
     display: flex;
@@ -71,6 +165,9 @@ p{
 .flex{
     display: flex;
 }
+#red{
+    color: red;
+}
 /* changing width of hour text box */
 #hours{
     width: 100%;
@@ -84,6 +181,7 @@ p{
 .message{
     border-radius: 5px;
     line-height: 20px;
+    padding: 5px;
 }
 /* adjusting all h1 text to 60px */
 h1{ 
@@ -116,60 +214,87 @@ article p{
 .message, .text-box{
     font-size: 18px;
 }
-
+.icons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
 
 }
 /* //////////////////// */
 /* desktop */
 /* //////////////////// */
-@media screen and (min-width:768px) {
-
+@media screen and (min-width:768px)
+ {
+/* deleting scooter image */
 .scooter{
     display: none;
 }
+/* setting a max-width to the main tag */
 main{
     height: 80%;
     max-width: 1640px;
     margin: 0 auto;
 }
+/* giving the calculate button auto width */
 .calculate{
     width: auto;
 }
+/* setting full height to HTML */
 html{
     height: 100%;
 }
+/* setting a max width so it doesn't continue with the footer yellow */
 .element{
     max-width: 1640px;
     margin: 0 auto;
 }
+/* adjusting footer (yellow) height */
 footer{
     height: 20%;
 }
+/* adjusting the most upper text(boss part) */
 .upper{
     max-width:505px;
     display: center;
 }
+/* adjusting body width */
 body{
     padding-left: 140px;
     padding-right: 140px; 
     height: 100%;
     padding: 0;
 }
+/* making 3 columns for the desktop version, I am puting nothing in the middle column so that a space remains there */
 article{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+/* assigning the box class to the 3rd column */
 .box{
     grid-column-start: 3;
 }
+/* adding the scooter image as a background and adjusting placement */
 article{
     background-image: url("../images/scooter.svg");
     background-repeat: no-repeat; 
     background-position: center;
 }
+/* adjusting icon placement */
 .icons{
     justify-content: flex-end;
 }
+/* adjusting (Boss text) size */
+h1{
+    font-size: 80px;
+}
+h3{
+    font-size: 18;
+    font-weight: bold;
+}
 
+/* .line{
+    line-height: 20px;
+} */
 
 }

@@ -19,6 +19,7 @@
             </header> 
         
             <article>
+                
                 <div class="upper">
 
                     <!-- adding a h1 because I know this will be the largest text -->
@@ -33,7 +34,7 @@
                 </div>
                 <!-- adding the scooter image in the correct place -->
                 <img src="images/scooter.svg" alt="scooter" class="scooter">
-
+                <!-- adding a div around all the elements for a form -->
                 <div class="box">
 
                     <h2>Apply Now</h2>
@@ -41,13 +42,15 @@
                     <p class="enter">
                         Enter your info below to get started.
                     </p>
-                    
-                    <form action="thanks.html" method="post">
+                    <!-- adding a form for people to fill out info -->
+                    <form>
+                        <!-- individual slots -->
                         <div>
                             
                             <input type="text" class="text-box" name="full name" id="full name"
                              placeholder="First Name" >
                         </div>
+                        <!-- individual slots -->
                         <div>
                             
                             <input type="email" class="text-box" name="last name" id="your email" required placeholder="Last name">
@@ -68,10 +71,10 @@
                         <input type="radio" id="yes" name="past">
                         <label for="">I agree to dash terms</label>
                         <div class="link">
-
+                            <!-- link with a button -->
                             <button id="us" type="submit">DRIVE WITH US</button>
                             <p class="applied"> Already applied? </p>
-                            <a href="Check your application status here"> check your application status here</a>
+                            <a href="Check your application status here" id="red"> check your application status here</a>
                         </div>
                     
                     </form>
@@ -84,24 +87,28 @@
             
         </main>
         <footer>
+            <!-- setting a class to this div so I can set a max width to it -->
             <div class="element">
+                <div class="line">
 
-                <!-- used h3 because it's like an announcement but still bold -->
-                <h3>
-                    See how much you can earn with dash
-                </h3>
-                <p class="enter">
-                    how many hours do you wat to drive with us this week?
-                </p>
+                    <!-- used h3 because it's like an announcement but still bold -->
+                    <h3>
+                        See how much you can earn with dash
+                    </h3>
+                    <p class="enter">
+                        how many hours do you wat to drive with us this week?
+                    </p>
+                </div>
                 <div class="calculate">
                     <div class="flex">
-
+                        <!-- putting a div around so I can make it take up 25% width in mobile -->
                         <div id="one">
                             
                             <input type= "text" name="hours"
                             placeholder="Hours" class="message" id="hours">
                             
                         </div>
+                        <!-- putting a div around so I can make it take up 75% width in mobile -->
                         <div id="two">
                             
                             <input type= "text" name="city"
