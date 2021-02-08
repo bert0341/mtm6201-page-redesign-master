@@ -139,7 +139,6 @@ h3{
     border-radius: 5px;
     background-color: white;
     max-width: 535px;
-    height: 590px;
 } 
 /* calcualte button adjustments */
 #calculate{
@@ -150,6 +149,7 @@ h3{
     width: 302px;
     padding: 5px;
 }
+
 .calculate{
     display: flex;
     flex-wrap: wrap;
@@ -161,6 +161,10 @@ h3{
 }
 #one{
     width: 25%;
+}
+/* specifying font size for already applied */
+.applied{
+    font-size: 16px;
 }
 .flex{
     display: flex;
@@ -198,6 +202,7 @@ h2{
     justify-content: center;
     justify-content: space-around;
 }
+
 /* ///////////////////// */
 /* iPad */ 
 /* //////////////////// */
@@ -208,7 +213,7 @@ body{
     padding-right: 82px; */
     padding: 0 82px;
 }
-article p{
+.start{
     font-size: 30px;
 }
 .message, .text-box{
@@ -218,6 +223,9 @@ article p{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+}
+p .applied{
+    font-size: 16px;
 }
 
 }
@@ -273,6 +281,7 @@ article{
 /* assigning the box class to the 3rd column */
 .box{
     grid-column-start: 3;
+    height: 590px;
 }
 /* adding the scooter image as a background and adjusting placement */
 article{
