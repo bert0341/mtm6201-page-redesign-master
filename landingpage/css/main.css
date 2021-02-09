@@ -89,8 +89,8 @@ video {
 }
 /* adding padding for mobile version and changing background color */
 body{
-  padding-left: 38px;
-  padding-right: 38px;
+  /* padding-left: 38px;
+  padding-right: 38px; */
   background-color: #F7F7FF;
   font-family: 'Montserrat', sans-serif;
 }
@@ -98,7 +98,10 @@ body{
 footer{
     background-color: #fffd8c;
 }
-
+/* adjusting city width */
+#two{
+    width: 75%;
+}
 /* Adjusting height and width of the D logo */
 .d{
     width: 114px;
@@ -208,17 +211,21 @@ h2{
     justify-content: center;
     justify-content: space-around;
 }
+main{
+    padding: 0 38px;
+}
+.element{
+    padding: 0 38px;
+}
 
 /* ///////////////////// */
 /* iPad */ 
 /* //////////////////// */
 @media screen and (min-width:375px){
 /* adding padding to either side */
-body{
-    /* padding-left: 82px;
-    padding-right: 82px; */
+/* body{
     padding: 0 82px;
-}
+} */
 /* start today text */
 .start{
     font-size: 30px;
@@ -243,6 +250,9 @@ p .applied{
 #us{
     margin-left: 20px;
 }
+.flex{
+    max-width: 300px;
+}
 
 
 }
@@ -260,6 +270,9 @@ main{
     height: 80%;
     max-width: 1640px;
     margin: 0 auto;
+}
+#two{
+    width: 75%;
 }
 /* giving the calculate button auto width */
 .calculate{
