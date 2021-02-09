@@ -98,6 +98,7 @@ body{
 footer{
     background-color: #fffd8c;
 }
+
 /* Adjusting height and width of the D logo */
 .d{
     width: 114px;
@@ -139,6 +140,8 @@ h3{
     border-radius: 5px;
     background-color: white;
     max-width: 535px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;;
 } 
 /* calcualte button adjustments */
 #calculate{
@@ -227,6 +230,12 @@ body{
 p .applied{
     font-size: 16px;
 }
+#calculate{
+    width: 150px;
+}
+/* #city{
+    width: ;
+} */
 
 }
 /* //////////////////// */
@@ -301,7 +310,9 @@ h3{
     font-size: 18;
     font-weight: bold;
 }
-
+.two{
+    width: 75%;
+}
 /* .line{
     line-height: 20px;
 } */
